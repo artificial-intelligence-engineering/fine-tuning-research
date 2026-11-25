@@ -1,0 +1,24 @@
+[project]
+name = "fine-tuning-classification"
+version = "0.1.0"
+description = "Classification Fine-Tuning for GPT models (based on Sebastian Raschka, Chapter 6)"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "matplotlib>=3.7.1",
+    "numpy>=1.26.0",
+    "pandas>=2.2.1",
+    "requests>=2.31.0",
+    "tensorflow>=2.18.0",
+    "tiktoken>=0.5.1",
+    "torch>=2.2.2",
+    "tqdm>=4.66.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
