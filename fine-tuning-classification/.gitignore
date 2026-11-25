@@ -1,0 +1,8 @@
+# Downloaded datasets, pretrained weights, and training outputs
+data/
+gpt2/
+outputs/
+*.pth
+*.pdf
+*.zip
+*.csv
